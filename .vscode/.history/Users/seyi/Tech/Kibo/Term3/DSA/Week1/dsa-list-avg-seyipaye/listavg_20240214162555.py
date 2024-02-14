@@ -16,5 +16,5 @@ class ListAverage:
         return total / len(self.lst)
 
     def compute_avg_faster(self):
-        return self.total / len(self.lst)
+        return self.total / 
         

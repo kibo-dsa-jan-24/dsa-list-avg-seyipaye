@@ -7,7 +7,7 @@ class ListAverage:
 
     def add(self, num):
         self.lst.append(num)
-        self.total += num
+        self
 
     def compute_avg(self):
         total = 0
@@ -16,5 +16,5 @@ class ListAverage:
         return total / len(self.lst)
 
     def compute_avg_faster(self):
-        return self.total / len(self.lst)
+        sum = sum(self.lst)
         
